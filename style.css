@@ -1,0 +1,112 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    border-color: black;
+    background-color: rgb(255, 255, 255);
+    width:80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow:hidden;
+}
+
+.col-6{
+    /* width: ; */
+    border-color: black;
+    /* background-color: aqua; */
+}
+
+.cero_bloque{
+    padding: 15px;
+    border-color: black;
+    border-width: 200px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px 10px 10px 10px;
+}
+
+.primer_bloque{
+    padding: 15px;
+    border-color: black;
+    border-width: 20px;
+    background-color: rgb(223, 219, 219);
+    border-radius: 10px 10px 10px 10px;
+}
+
+.tercer_bloque{
+    padding: 15px;
+    border-color: black;
+    border-width: 20px;
+    background-color: rgb(223, 219, 219);
+    border-radius: 10px 10px 10px 10px;
+}
+
+.form_control{
+    width: 200px;
+    background-color: aquamarine;
+}
+
+.content_article{
+    margin-top: 50px;
+    justify-content: center;
+    flex-direction: row;
+}
+
+/* .content_article_principal{
+    justify-content: center;
+    flex-direction: row;
+} */
+
+.text_inicial1{
+    justify-content: center;
+    font-size: 15px;
+    color: aliceblue;
+    display: flex;
+}
+
+.text_inicial2{
+    justify-content: center;
+    font-size: 15px;
+    color: aliceblue;
+    display: flex;
+}
+
+.form_label_1{
+    margin-left: 200px;
+}
+.col-13{
+    display: grid;
+    justify-content: center;
+    width: 100vh;
+    padding: 10px;
+    background-color: rgb(219, 247, 65);
+}
+
+.botones{
+    margin-left: 30px;
+    justify-content: end;
+}
+
+.otroBoton{
+    margin-bottom: 10px;
+    padding: 20px;
+    font-size: 20px;
+    color: aliceblue;
+    background-color: rgb(44, 125, 247);
+    border-radius: 10px 10px 10px 10px;
+    border-color: rgb(109, 163, 243);
+}
+
+.otroBoton1{
+    margin-bottom: 10px;
+    padding: 20px;
+    font-size: 20px;
+    color: aliceblue;
+    background-color: rgb(240, 66, 54);
+    border-radius: 10px 10px 10px 10px;
+    border-color: rgb(240, 66, 54);
+}
